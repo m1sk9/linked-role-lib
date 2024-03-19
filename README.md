@@ -1,5 +1,9 @@
 # linked-role-lib
 
+[![build](https://github.com/m1sk9/linked-role-lib/actions/workflows/build.yaml/badge.svg)](https://github.com/m1sk9/linked-role-lib/actions/workflows/build.yaml)
+[![publish](https://github.com/m1sk9/linked-role-lib/actions/workflows/publish.yaml/badge.svg)](https://github.com/m1sk9/linked-role-lib/actions/workflows/publish.yaml)
+[![release](https://github.com/m1sk9/linked-role-lib/actions/workflows/release.yaml/badge.svg)](https://github.com/m1sk9/linked-role-lib/actions/workflows/release.yaml)
+
 ## Installation
 
 ```sh
