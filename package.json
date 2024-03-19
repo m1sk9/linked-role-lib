@@ -13,7 +13,7 @@
     "url": "https://m1sk9.dev"
   },
   "scripts": {
-    "build": "bunx tsc -d",
+    "build": "rm -rf build/ && bunx tsc -d && bun run doc",
     "format": "bunx @biomejs/biome format --write ./src",
     "lint": "bunx @biomejs/biome lint ./src",
     "doc": "typedoc --skipErrorChecking --name @m1sk9/linked-role-lib ./src/index.ts",
