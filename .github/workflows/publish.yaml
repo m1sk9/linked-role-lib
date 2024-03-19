@@ -39,8 +39,15 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./docs
 
-      - uses: JS-DevTools/npm-publish@v3
+      - name: Publish ghcr.io registry
+        uses: JS-DevTools/npm-publish@v3
         with:
           package: build/
           registry: "https://npm.pkg.github.com"
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish npm registry
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          package: build/
+          token: ${{ secrets.NPM_TOKEN }}
