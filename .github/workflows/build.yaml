@@ -26,9 +26,5 @@ jobs:
       - name: Check
         run: bun run check
 
-      # note: Maybe type checking is done at build.
-      - name: Type check
-        run: bun run check:type
-
       - name: Build
         run: bun run build
