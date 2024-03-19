@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/m1sk9/linked-role-lib/compare/linked-role-lib-v1.0.0...linked-role-lib-v1.0.1) (2024-03-19)
+
+
+### Bug Fixes
+
+* fix package name ([#6](https://github.com/m1sk9/linked-role-lib/issues/6)) ([1b712dc](https://github.com/m1sk9/linked-role-lib/commit/1b712dc96d63b3b452d70e705c56cb748610123f))
+
 ## 1.0.0 (2024-03-19)
 
 
