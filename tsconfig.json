@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "declarationDir": "./build",
+    "outDir": "./build",
+    "baseUrl": "./src",
+    "paths": {
+      "*": ["build/*"]
+    }
+  },
+  "include": ["src/*.ts"],
+  "exclude": ["node_modules"]
+}
