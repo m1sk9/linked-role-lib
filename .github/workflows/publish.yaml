@@ -28,7 +28,7 @@ jobs:
         run: bun install --frozen-lockfile
 
       - name: Build
-        run: bun run build
+        run: bun run build && cp package.json build/
 
       - name: Build Typedoc
         run: bun run doc
