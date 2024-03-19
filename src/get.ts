@@ -1,6 +1,21 @@
 import { Result } from "@mikuroxina/mini-fn";
 import type { ApplicationRoleConnectionMetadataStructure } from "./types";
 
+/**
+ * Retrieves the role metadata for a Discord.
+ *
+ * ### Example
+ * ```ts
+ * import { getRoleMetadata } from '@m1sk9/linked-role-lib';
+ *
+ * const data = await getRoleMetadata("<ClientID>", "<TOKEN>");
+ * ```
+ *
+ * @param registerBody - The role metadata to register.
+ * @param discordClientID - The Discord client ID.
+ * @param discordToken - The Discord token.
+ * @returns A promise that resolves to a `Result` indicating the success or failure of the registration.
+ */
 export async function getRoleMetadata(
 	registerBody: ApplicationRoleConnectionMetadataStructure,
 	discordClientID: string,
