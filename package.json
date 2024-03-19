@@ -1,6 +1,7 @@
 {
   "name": "linked-role-lib",
   "description": "Discord Linked Role API Library",
+  "version": "0.0.0",
   "module": "build/index.js",
   "type": "module",
   "private": false,
