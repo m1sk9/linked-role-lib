@@ -1,6 +1,14 @@
 import { Result } from "@mikuroxina/mini-fn";
 import type { ApplicationRoleConnectionMetadataStructure } from "./types";
 
+/**
+ * Registers role metadata for a Discord.
+ *
+ * @param registerBody - The role metadata to register.
+ * @param discordClientID - The Discord client ID.
+ * @param discordToken - The Discord token.
+ * @returns A promise that resolves to a `Result` indicating the success or failure of the registration.
+ */
 export async function registerRoleMetadata(
 	registerBody: ApplicationRoleConnectionMetadataStructure[],
 	discordClientID: string,
