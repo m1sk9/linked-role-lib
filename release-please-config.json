@@ -1,7 +1,7 @@
 {
   "packages": {
-      ".": {
-          "package-name": "@m1sk9/linked-role-lib"
-      }
+    ".": {
+      "package-name": "@m1sk9/linked-role-lib"
+    }
   }
 }
