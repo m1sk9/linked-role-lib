@@ -11,20 +11,17 @@ import type { ApplicationRoleConnectionMetadataStructure } from "./types";
  * const data = await getRoleMetadata("<ClientID>", "<TOKEN>");
  * ```
  *
- * @param registerBody - The role metadata to register.
  * @param discordClientID - The Discord client ID.
  * @param discordToken - The Discord token.
  * @returns A promise that resolves to a `Result` indicating the success or failure of the registration.
  */
 export async function getRoleMetadata(
-	registerBody: ApplicationRoleConnectionMetadataStructure,
 	discordClientID: string,
 	discordToken: string,
 ): Promise<Result.Result<Error, ApplicationRoleConnectionMetadataStructure>> {
 	const url = `https://discord.com/api/v10/applications/${discordClientID}/role-connections/metadata`;
 	const response = await fetch(url, {
-		method: "PUT",
-		body: JSON.stringify(registerBody),
+		method: "GET",
 		headers: {
 			Authorization: `Bot ${discordToken}`,
 			"Content-Type": "application/json",
