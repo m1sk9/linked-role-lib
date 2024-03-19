@@ -4,10 +4,10 @@
 
 ```sh
 # pnpm
-pnpm install linked-role-lib
+pnpm install @m1sk9/linked-role-lib
 
 # Bun
-bun install linked-role-lib
+bun install @m1sk9/linked-role-lib
 ```
 
 <details>
@@ -15,10 +15,10 @@ bun install linked-role-lib
 
 ```sh
 # npm
-npm install linked-role-lib
+npm install @m1sk9/linked-role-lib
 
 # yarn
-yarn add linked-role-lib
+yarn add @m1sk9/linked-role-lib
 ```
 </details>
 
@@ -26,7 +26,7 @@ yarn add linked-role-lib
 <summary>Deno (Not supported)</summary>
 
 ```ts
-export * from 'npm:linked-role-lib';
+export * from 'npm:@m1sk9/linked-role-lib';
 ```
 
 Using Import map:
@@ -34,7 +34,7 @@ Using Import map:
 ```json
 {
   "imports": {
-    "linked-role-lib": "npm:linked-role-lib"
+    "linked-role-lib": "npm:@m1sk9/linked-role-lib"
   }
 }
 ```
