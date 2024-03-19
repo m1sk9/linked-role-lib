@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/m1sk9/linked-role-lib/compare/v1.0.2...v1.0.3) (2024-03-19)
+
+
+### Bug Fixes
+
+* release v1.0.3 ([8c666fe](https://github.com/m1sk9/linked-role-lib/commit/8c666fe3616bcdc040cdf907787199bd4db11253))
+
 ## [1.0.2](https://github.com/m1sk9/linked-role-lib/compare/v1.0.1...v1.0.2) (2024-03-19)
 
 
