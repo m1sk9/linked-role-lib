@@ -44,3 +44,36 @@ Using Import map:
 ```
 
 </details>
+
+## Usage
+
+### Register Role Metadata
+
+```ts
+import { registerRoleMetadata, type ApplicationRoleConnectionMetadataStructure } from '@m1sk9/linked-role-lib';
+
+const roledata: ApplicationRoleConnectionMetadataStructure[] = [
+  {
+    type: 7
+    name: "role1",
+    description: "Role 1",
+    key: "role1",
+  },
+  {
+    type: 7
+    name: "role1",
+    description: "Role 1",
+    key: "role1",
+  }
+]
+
+await registerRoleMetadata(roledata, "<ClientID>", "<TOKEN>");
+```
+
+### Get Role Metadata
+
+```ts
+import { getRoleMetadata } from '@m1sk9/linked-role-lib';
+
+const data = await getRoleMetadata("<ClientID>", "<TOKEN>"); // Returns ApplicationRoleConnectionMetadataStructure[]
+```
