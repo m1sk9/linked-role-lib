@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/m1sk9/linked-role-lib/compare/v1.0.1...v1.0.2) (2024-03-19)
+
+
+### Bug Fixes
+
+* 型定義が正しく動作していない不具合の修正 ([#12](https://github.com/m1sk9/linked-role-lib/issues/12)) ([f9bf660](https://github.com/m1sk9/linked-role-lib/commit/f9bf660631797bc8cd0cb629eb0a95872a1b7651))
+
 ## [1.0.1](https://github.com/m1sk9/linked-role-lib/compare/v1.0.0...v1.0.1) (2024-03-19)
 
 
