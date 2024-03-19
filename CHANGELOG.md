@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/m1sk9/linked-role-lib/compare/v1.0.0...v1.0.1) (2024-03-19)
+
+
+### Bug Fixes
+
+* fixed problems working with `PUT` method ([#9](https://github.com/m1sk9/linked-role-lib/issues/9)) ([65b9896](https://github.com/m1sk9/linked-role-lib/commit/65b9896a5e27c73a13978453e32330956f29e7c9))
+
 ## 1.0.0 (2024-03-19)
 
 
